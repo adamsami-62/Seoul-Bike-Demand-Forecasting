@@ -89,7 +89,7 @@ python forecast.py --data-path "Seoul-bicycle-rental-dataset.csv" --artifacts-di
 │   ├── features.py        # Lag, rolling, cyclical, and interaction features
 │   ├── modeling.py        # Candidate model definitions
 │   └── evaluation.py      # MAE/RMSE/sMAPE, walk-forward, holdout evaluation
-├── artifacts/             
+├── artifacts/
 │   ├── holdout_actual_vs_predicted.png
 │   ├── holdout_error_by_hour.png
 │   ├── recursive_forecast_last_window.png
@@ -98,7 +98,8 @@ python forecast.py --data-path "Seoul-bicycle-rental-dataset.csv" --artifacts-di
 │   └── recursive_forecast_last_window.csv
 ├── train.py               # Full training and evaluation script
 ├── forecast.py            # Recursive 24-hour forecast simulation
-└── requirements.txt
+├── requirements.txt
+└── Seoul-bicycle-rental-dataset.csv
 ```
 
 ## Tools
